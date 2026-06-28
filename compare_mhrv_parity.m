@@ -1,9 +1,8 @@
 function T = compare_mhrv_parity(rr_seconds, outCsv)
 % COMPARE_MHRV_PARITY  Demonstrate the agreement between this pipeline's ported
 % HRV routines (hrv_*_edit) and the PhysioZoo mhrv library called directly, on
-% IDENTICAL R-R inputs. Addresses Reviewer 2: rather than asserting bit-level
-% equivalence, this script measures it and writes the result for the repository.
-%
+% IDENTICAL R-R inputs. 
+
 % USAGE
 %   % use a built-in fixed example R-R series (reproducible):
 %   T = compare_mhrv_parity();
